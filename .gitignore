@@ -11,3 +11,5 @@ __pycache__/
 *.pyc
 #JetBrains
 .idea/
+#Others
+.DS_Store
