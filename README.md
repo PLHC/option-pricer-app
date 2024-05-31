@@ -27,6 +27,17 @@ d_2 = d_1 - \sigma \thinspace \sqrt{t} $$
 <<<<<<< Updated upstream
 =======
 S: underlying price
+<<<<<<< Updated upstream
+=======
+
+X: exercise price
+
+t: time to expirations in years
+
+r: domestic interest rate
+
+&sigma;: annualized volatility in percent
+>>>>>>> Stashed changes
 
 X: exercise price
 
