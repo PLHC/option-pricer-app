@@ -1,6 +1,6 @@
 # Black Scholes Option pricer
 
-! [Dashboard](images/main_screenshot.png)
+![Dashboard](images/main_screenshot.png)
 
 
 ## Introduction 
