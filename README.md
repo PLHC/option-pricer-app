@@ -16,8 +16,9 @@ stock[^1]:
 
 [^1]: Option volatility and pricing (2nd edition) - Sheldon Natenberg
 
-$$\text{Call price} = SN(d_1) - XN(d_2)exp(-rt)$$
-$$Put price = XN(-d_2)exp(-rt) - SN(-d_1)$$
+$$\text{Call price} = S\;N(d_1) - X\;N(d_2)\exp(-rt)$$
+
+$$\text{Put price} = X\;N(-d_2)\exp(-rt) - S\;N(-d_1)$$
 
 
 
