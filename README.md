@@ -24,20 +24,8 @@ $$ \text{where} \quad\quad d_1 = \frac{ln\frac{S}{X}+\frac{\sigma ^2}{2}t}{\sigm
 \quad\quad\text{and}\quad\quad 
 d_2 = d_1 - \sigma \thinspace \sqrt{t} $$
 
-<<<<<<< Updated upstream
-=======
+
 S: underlying price
-<<<<<<< Updated upstream
-=======
-
-X: exercise price
-
-t: time to expirations in years
-
-r: domestic interest rate
-
-&sigma;: annualized volatility in percent
->>>>>>> Stashed changes
 
 X: exercise price
 
@@ -46,8 +34,6 @@ t: time to expirations in years
 r: domestic interest rate
 
 &sigma; : annualized volatility in percent
-
->>>>>>> Stashed changes
 
 
 ## Language, tools and limitations
