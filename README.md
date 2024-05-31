@@ -18,7 +18,7 @@ stock[^1]:
 
 $$\text{Call price} = S \thinspace N(d_1) - X \thinspace e^{-rt} \thinspace N(d_2) $$
 
-$$\text{Put price} = X \thinspace  e^{-rt} /thinspace N(-d_2) - S \thinspace N(-d_1)$$
+$$\text{Put price} = X \thinspace  e^{-rt} \thinspace N(-d_2) - S \thinspace N(-d_1)$$
 
 
 
