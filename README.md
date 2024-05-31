@@ -20,6 +20,8 @@ $$\text{Call price} = S \thinspace N(d_1) - X \thinspace e^{-rt} \thinspace N(d_
 
 $$\text{Put price} = X \thinspace  e^{-rt} \thinspace N(-d_2) - S \thinspace N(-d_1)$$
 
+$$ d_1 = \frac{ln\frac{S}{X}+(\frac{\sigma ^2}{2}t}{\sigma \thinspace \sqrt{t}} $$  
+
 
 
 
