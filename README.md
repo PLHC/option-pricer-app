@@ -16,9 +16,9 @@ stock[^1]:
 
 [^1]: Option volatility and pricing (2nd edition) - Sheldon Natenberg
 
-$$\text{Call price} = S \thinspace N(d_1) - X \thinspace e^{-rt} \thinspace N(d_2) $$
-
-$$\text{Put price} = X \thinspace  e^{-rt} \thinspace N(-d_2) - S \thinspace N(-d_1)$$
+$$\textbf{Call price} = S \thinspace N(d_1) - X \thinspace e^{-rt} \thinspace N(d_2) 
+\quad \quad \quad 
+\textbf{Put price} = X \thinspace  e^{-rt} \thinspace N(-d_2) - S \thinspace N(-d_1)$$
 
 $$ \text{where} \quad\quad d_1 = \frac{ln\frac{S}{X}+\frac{\sigma ^2}{2}t}{\sigma \thinspace \sqrt{t}}   
 \quad\quad\text{and}\quad\quad 
