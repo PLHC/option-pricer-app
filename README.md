@@ -25,14 +25,10 @@ $$ \text{where} \quad\quad d_1 = \frac{ln\frac{S}{X}+\frac{\sigma ^2}{2}t}{\sigm
 d_2 = d_1 - \sigma \thinspace \sqrt{t} $$
 
 
-S: underlying price
-
-X: exercise price
-
-t: time to expirations in years
-
-r: domestic interest rate
-
+S: underlying price  
+X: exercise price  
+t: time to expirations in years  
+r: domestic interest rate  
 &sigma; : annualized volatility in percent
 
 
