@@ -8,7 +8,7 @@ st.set_page_config(
     page_icon=":signal_strength:",
     layout="wide"
 )
-st.title("Black Scholes Option Pricer")
+st.title("Black-Scholes Option Pricer")
 col_inputs, col_buttons, col_call, col_put = st.columns([15, 7, 30, 30], gap='large')
 
 # Inputs to model
