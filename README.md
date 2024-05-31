@@ -31,40 +31,33 @@ t: time to expirations in years
 r: domestic interest rate  
 &sigma;: annualized volatility in percent
 
-# How to setup and run the app
+# How to set up and run the app
 
 ## Python
 The project was developed using Python 3.12 and the versions of the different 
-installed libraries are specified in the requirements.txt file.
+installed libraries are specified in the [requirements](requirements.txt) file.
 
 ## Setting-up the database
 
 The application requires a locally hosted MySQL database named: Option_Pricer_DB.
 Run the following command in MySQL to create the database.
 
-'''sql
-CREATE DATABASE Option_Pricer_DB;
+    CREATE DATABASE Option_Pricer_DB;
 
 ## Setting Environment Variables
 
 To access the database, the username and password needs to be recorded in environment variables. 
 
-'''sh
-export DB_USERNAME_OPTION_PRICER='your_mysql_username'
-export DB_PASSWORD_OPTION_PRICER='your_mysql_password'
-'''
+    export DB_USERNAME_OPTION_PRICER='your_mysql_username'
+    export DB_PASSWORD_OPTION_PRICER='your_mysql_password'
 
 ## Running the Project
 To run the project, execute the following command in the terminal.
 
-'''sh
-streamlit run main.py
-'''
+    streamlit run main.py
 
 
-
-
-# Language, tools and limitations
+# Limitations of Streamlit
 
 # How to use it
 
