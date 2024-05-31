@@ -20,7 +20,7 @@ $$\textbf{Call price} = S \thinspace N(d_1) - X \thinspace e^{-rt} \thinspace N(
 \quad \quad \quad 
 \textbf{Put price} = X \thinspace  e^{-rt} \thinspace N(-d_2) - S \thinspace N(-d_1)$$
 
-$$ \text{where} \quad\quad d_1 = \frac{ln\frac{S}{X}+\frac{\sigma ^2}{2}t}{\sigma \thinspace \sqrt{t}}   
+$$ \text{where} \quad\quad d_1 = \displaystyle\frac{ln\frac{S}{X}+\frac{\sigma ^2}{2}t}{\sigma \thinspace \sqrt{t}}   
 \quad\quad\text{and}\quad\quad 
 d_2 = d_1 - \sigma \thinspace \sqrt{t} $$
 
@@ -29,7 +29,7 @@ S: underlying price
 X: exercise price  
 t: time to expirations in years  
 r: domestic interest rate  
-&sigma; : annualized volatility in percent
+&sigma;: annualized volatility in percent
 
 
 ## Language, tools and limitations
