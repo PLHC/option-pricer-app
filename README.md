@@ -5,10 +5,10 @@
 
 ## Introduction 
 This project provides a tool for traders to compute option prices using the Black-Scholes model.
-To support the analysis of the financial instrument it includes heatmaps displaying the effect of 
-potential volatility and underlying price variations. Finally, to facilitate parallel analysis,
-the different computations are stored in a MySQL database and are accessible through a navigation 
-interface.
+To support the analysis of the financial instrument, heatmaps display the effect of 
+potential volatility and underlying price variations. The GUI is implemented using the Streamlit 
+library. Finally, to facilitate parallel analysis, the different computations are stored in a MySQL 
+database and are accessible through a navigation interface.
 
 ## Model
 The model used for this project is the original Black-Scholes model for options on a non-dividend-paying 
@@ -30,6 +30,32 @@ X: exercise price
 t: time to expirations in years  
 r: domestic interest rate  
 &sigma;: annualized volatility in percent
+
+## How to setup and run the app
+The project was developed using Python 3.12 and the versions of the different 
+installed libraries are specified in the requirements.txt file.
+
+The application requires a locally hosted MySQL database named: Option_Pricer_DB.
+Run the following command in MySQL to create the database.
+
+'''sql
+CREATE DATABASE Option_Pricer_DB
+'''
+
+To access the database, the username and password needs to be recorded in environment variables. 
+
+'''sh
+export DB_USERNAME_OPTION_PRICER='your_mysql_username'
+export DB_PASSWORD_OPTION_PRICER='your_mysql_password'
+'''
+
+To run the project, execute teh following line of code in the terminal.
+
+'''sh
+streamlit run main.py
+'''
+
+
 
 
 ## Language, tools and limitations
