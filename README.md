@@ -68,17 +68,16 @@ a second between two button clicks not to corrupt the system.
 ## Interface
 ![Parts](images/parts_screenshots.png)
 The GUI is divided in three parts. The first one is used to enter model inputs and to navigate through the
-computed values. The second part displays the results of the model: prices of the put and call options and heatmaps
+computed values. Any forbidden value triggers a message inviting the user to correct the given input. 
+The second part displays the results of the model: prices of the put and call options and heatmaps
 displaying the price variations of the options if volatility and underlying price deviate in the ranges +/-10.
 The third part shows the inputs to the model corresponding to the displayed prices and heatmaps guaranteeing 
 certainty in the provided information.
 
 ## User controls
-The inputs to the model are entered in the boxes on the right and any forbidden value triggers a message.
-
 **_Compute_** button runs the model computation, stores the values in the database and display them. In case 
 the inputs have not been changed since the last computation, the values are not computed and the last computation
-is loaded from the database. This prevents storing unnecessarily multiple times the same values.
+is loaded from the database. This prevents storing unnecessarily the same values.
 
 **_Next_** and **_Previous_** load and display the next or previous model computation stored in the database.
 
