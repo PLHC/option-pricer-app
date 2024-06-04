@@ -71,7 +71,7 @@ The GUI is divided in three parts. The first one is used to enter model inputs a
 computed values. Any forbidden value triggers a message inviting the user to correct the given input. 
 The second part displays the results of the model: prices of the put and call options and heatmaps
 displaying the price variations of the options if volatility and underlying price deviate in the ranges +/-10.
-The third part shows the inputs to the model corresponding to the displayed prices and heatmaps guaranteeing 
+The third part shows the inputs to the model corresponding to the displayed prices and heatmaps, guaranteeing 
 certainty in the provided information.
 
 ## User controls
