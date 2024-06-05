@@ -15,6 +15,7 @@ The value of an option represents the expected profit from owning the option. Fr
 are extracted:
 - average value of all stock above the exercise price: the weighted average price at which the option would be executed 
 - average payout from exercise of the option: computed from the probability the option would be in the money 
+
 The difference between these two components is the expected profit from owning the option.
 
 The **_Volatility_** is the standard deviation of the price distribution and characterizes the expected price movements 
@@ -90,11 +91,11 @@ The third part shows the inputs to the model corresponding to the displayed pric
 certainty in the provided information.
 
 ## User controls
-**_Compute_** button runs the model computation, stores the values in the database and display them. In case 
+The **_Compute_** button runs the model computation, stores the values in the database and displays them. In case 
 the inputs have not been changed since the last computation, the values are not computed and the last computation
 is loaded from the database. This prevents storing unnecessarily the same values.
 
-**_Next_** (**_Previous_**) loads and displays the next (previous) model computation stored in the database.
+The **_Next_** (**_Previous_**) loads and displays the next (previous) model computation stored in the database.
 
 
 
