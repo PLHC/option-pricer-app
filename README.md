@@ -95,7 +95,7 @@ The **_Compute_** button runs the model computation, stores the values in the da
 the inputs have not been changed since the last computation, the values are not computed and the last computation
 is loaded from the database. This prevents storing unnecessarily the same values.
 
-The **_Next_** (**_Previous_**) loads and displays the next (previous) model computation stored in the database.
+The **_Next_** (**_Previous_**) button loads and displays the next (previous) model computation stored in the database.
 
 
 
