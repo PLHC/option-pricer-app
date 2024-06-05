@@ -11,8 +11,23 @@ Python framework. Finally, to facilitate parallel analysis, the different comput
 database and are accessible through a navigation interface.
 
 # Model
-The model used for this project is the original Black-Scholes model for options on a non-dividend-paying 
-stock[^1]:
+The value of an option represents the expected profit from owning the option. From the price distribution two components
+are extracted:
+- average value of all stock above the exercise price: the weighted average price at which the option would be executed 
+- average payout from exercise of the option: computed from the probability the option would be in the money 
+The difference between these two components is the expected profit from owning the option.
+
+The **_Volatility_** is the standard deviation of the price distribution and characterizes the expected price movements 
+on the market. Higher volatility reflects higher probability for high underlying prices and increases the value 
+of an option.
+
+The **_Interest rate_** affects the value of an option as the exercise price is the forward price and needs to be 
+adjusted to reflect its present value using the **_Time to expiration_**. Higher interest rate increases (decreases) the 
+price of a call (put) option, since carrying the stock is more expensive with high interest rate and holding cash is
+more advantageous as more interest can be earned.
+
+By fixing the interest rate and the volatility, it is possible to compute the option value. The project uses the 
+original **_Black-Scholes model_** for options on a non-dividend-paying stock[^1]:
 
 [^1]: Option volatility and pricing (2nd edition) - Sheldon Natenberg
 
@@ -25,11 +40,11 @@ $$ \text{where} \quad\quad d_1 = \displaystyle\frac{ln\frac{S}{X}+\frac{\sigma ^
 d_2 = d_1 - \sigma \thinspace \sqrt{t} $$
 
 
-S: underlying price  
+_S: underlying price  
 X: exercise price  
 t: time to expirations in years  
 r: domestic interest rate  
-&sigma;: annualized volatility in percent
+&sigma;: annualized volatility in percent_
 
 # How to set up and run the app
 
@@ -79,7 +94,7 @@ certainty in the provided information.
 the inputs have not been changed since the last computation, the values are not computed and the last computation
 is loaded from the database. This prevents storing unnecessarily the same values.
 
-**_Next_** and **_Previous_** load and display the next or previous model computation stored in the database.
+**_Next_** (**_Previous_**) loads and displays the next (previous) model computation stored in the database.
 
 
 
