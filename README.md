@@ -57,10 +57,10 @@ installed libraries are specified in the [requirements](requirements.txt) file.
 
 ## Setting-up the database
 
-The application requires a locally hosted MySQL database named: **_Option_Pricer_DB_**.
+The application requires a locally hosted MySQL database named: **_option_pricer_db_**.
 Run the following command in MySQL to create the database.
 
-    CREATE DATABASE Option_Pricer_DB;
+    CREATE DATABASE option_pricer_db;
 
 ## Setting Environment Variables
 
@@ -86,11 +86,12 @@ a second between two button clicks not to corrupt the system.
 # How to use it
 ## Interface
 ![Parts](images/parts_screenshots.png)
-The GUI is divided in three parts. **1** is used to enter model inputs and to navigate through the
+The GUI is divided in three parts:
+- **1** is used to enter model inputs and to navigate through the
 computed values. Any forbidden value triggers a message inviting the user to correct the given input. 
-**2** displays the results of the model: prices of the put and call options and heatmaps
+- **2** displays the results of the model: prices of the put and call options and heatmaps
 displaying the price variations of the options if volatility and underlying price deviate in the ranges +/-10.
-**3** shows the inputs to the model corresponding to the displayed prices and heatmaps, guaranteeing 
+- **3** shows the inputs to the model corresponding to the displayed prices and heatmaps, guaranteeing 
 certainty in the provided information.
 
 ## User controls
