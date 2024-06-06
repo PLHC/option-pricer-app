@@ -10,7 +10,10 @@ potential volatility and underlying price variations. The GUI uses the [Streamli
 Python framework. Finally, to facilitate parallel analysis, the different computations are stored in a MySQL 
 database and are accessible through a navigation interface.
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/7kuec0jKjwM/0.jpg)](https://youtu.be/7kuec0jKjwM?si=2mg2VwL9nAV3gqTK "Demo")
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=7kuec0jKjwM
+" target="_blank"><img src="http://img.youtube.com/vi/7kuec0jKjwM/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 # Model
 The value of an option represents the expected profit from owning the option. From the price distribution two components
