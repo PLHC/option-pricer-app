@@ -111,11 +111,11 @@ displaying the price variations of the options if volatility and underlying pric
 certainty in the provided information.
 
 ## User controls
-<u>**_Compute_**</u>: runs the model computation, stores the values in the database and displays them. In case 
+<ins>**_Compute_**</ins>: runs the model computation, stores the values in the database and displays them. In case 
 the inputs have not been changed since the last computation, the values are not computed and the last computation
 is loaded from the database. This prevents storing unnecessarily the same values.
 
-<u>**_Next (Previous)_**</u>: loads and displays the next (previous) model computation stored in the database.
+<ins>**_Next (Previous)_**</ins>: loads and displays the next (previous) model computation stored in the database.
 
 
 
