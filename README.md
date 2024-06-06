@@ -10,11 +10,13 @@ potential volatility and underlying price variations. The GUI uses the [Streamli
 Python framework. Finally, to facilitate parallel analysis, the different computations are stored in a MySQL 
 database and are accessible through a navigation interface.
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/7kuec0jKjwM/0.jpg)](https://youtu.be/7kuec0jKjwM?si=2mg2VwL9nAV3gqTK "Demo")
+
 # Model
 The value of an option represents the expected profit from owning the option. From the price distribution two components
 are extracted:
-- average value of all stock above the exercise price: the weighted average price at which the option would be executed 
-- average payout from exercise of the option: computed from the probability the option would be in the money 
+- average value of all stock above the exercise price[^1]: the weighted average price at which the option would be executed 
+- average payout from exercise of the option[^1]: computed from the probability the option would be in the money 
 
 The difference between these two components is the expected profit from owning the option.
 
@@ -55,7 +57,7 @@ installed libraries are specified in the [requirements](requirements.txt) file.
 
 ## Setting-up the database
 
-The application requires a locally hosted MySQL database named: Option_Pricer_DB.
+The application requires a locally hosted MySQL database named: **_Option_Pricer_DB_**.
 Run the following command in MySQL to create the database.
 
     CREATE DATABASE Option_Pricer_DB;
@@ -71,6 +73,7 @@ To access the database, the username and password needs to be recorded in enviro
 
     streamlit run main.py
 
+The model opens in the default web browser.
 
 # Limitations of Streamlit
 Streamlit framework triggers a complete run of the code for every interaction with the GUI and interrupts any 
@@ -83,19 +86,19 @@ a second between two button clicks not to corrupt the system.
 # How to use it
 ## Interface
 ![Parts](images/parts_screenshots.png)
-The GUI is divided in three parts. The first one is used to enter model inputs and to navigate through the
+The GUI is divided in three parts. **1** is used to enter model inputs and to navigate through the
 computed values. Any forbidden value triggers a message inviting the user to correct the given input. 
-The second part displays the results of the model: prices of the put and call options and heatmaps
+**2** displays the results of the model: prices of the put and call options and heatmaps
 displaying the price variations of the options if volatility and underlying price deviate in the ranges +/-10.
-The third part shows the inputs to the model corresponding to the displayed prices and heatmaps, guaranteeing 
+**3** shows the inputs to the model corresponding to the displayed prices and heatmaps, guaranteeing 
 certainty in the provided information.
 
 ## User controls
-The **_Compute_** button runs the model computation, stores the values in the database and displays them. In case 
+**_Compute_**: runs the model computation, stores the values in the database and displays them. In case 
 the inputs have not been changed since the last computation, the values are not computed and the last computation
 is loaded from the database. This prevents storing unnecessarily the same values.
 
-The **_Next_** (**_Previous_**) button loads and displays the next (previous) model computation stored in the database.
+**_Next_** (**_Previous_**): loads and displays the next (previous) model computation stored in the database.
 
 
 
