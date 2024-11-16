@@ -26,6 +26,7 @@ To facilitate parallel analysis, the previous computations are stored in a MySQL
 navigation interface.
 
 [YouTube demo](https://youtu.be/7kuec0jKjwM)
+
 ![Dashboard](images/main_screenshot.png)
 # Pricing model
 The value of an option reflects the expected profit from holding it. This is derived from the price distribution of the underlying asset and involves two key components:
