@@ -1,5 +1,5 @@
 <!-- TOC -->
-* [Introduction and Youtube demo](#introduction-and-youtube-demo)
+* [Introduction and YouTube demo](#introduction-and-youtube-demo)
 * [Pricing model](#pricing-model)
   * [Key Factors Affecting Option Pricing](#key-factors-affecting-option-pricing)
     * [Volatility:](#volatility)
@@ -17,7 +17,7 @@
 <!-- TOC -->
 
 
-# Introduction and Youtube demo
+# Introduction and YouTube demo
 This project provides a tool for traders to compute option prices using the Black-Scholes model.
 To enhance the analysis of financial instruments, heatmaps visualize the impact of potential changes in volatility and 
 underlying asset prices.  
